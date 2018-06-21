@@ -1,0 +1,13 @@
+<div class="container">
+  <p 
+    class="content"
+    *ngIf="isParagraphVisible">Directive assignment </p>
+  <button 
+    class="button"
+    (click)="onToggleButton($event)">Display Details</button>
+<p 
+  class="logParagraph"
+  *ngFor = "let log of logHistory"
+  [innerText]="log"
+  [ngStyle]="{backgroundColor: getColor()}"></p>
+</div>

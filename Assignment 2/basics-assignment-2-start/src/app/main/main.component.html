@@ -1,0 +1,8 @@
+<div class="container">
+  <input class ="textbox"
+  type="text"
+  [(ngModel)]="userName">
+  <br>
+  <button class="createButton" (click)="onResetUsername($event)" [disabled]="checkUserName()"> Reset Username</button>
+  <p class="name">{{userName}}</p>
+</div>

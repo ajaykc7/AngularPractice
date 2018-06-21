@@ -1,0 +1,8 @@
+h2{
+    background-color: rgb(24, 231, 35);
+    color:white;
+}
+
+h2:hover{
+    background-color:green;
+}

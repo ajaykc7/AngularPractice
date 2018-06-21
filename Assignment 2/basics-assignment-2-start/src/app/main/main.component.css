@@ -1,0 +1,25 @@
+.container{
+    
+    border: 1em solid rgb(69, 146, 209);
+    background:rgb(69, 146, 209);
+    height: 25em;
+    width: 50em;
+}
+
+.textbox{
+    width:80%;
+    margin-left:10%;
+    margin-top:10%;
+}
+
+.createButton{
+    margin-left:40%;
+    margin-top:10%;
+}
+
+.name{
+    margin-left:40%;
+    margin-top:5%;
+    font-family: Arial;
+    font-size:5em;
+}
