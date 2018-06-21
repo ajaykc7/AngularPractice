@@ -1,0 +1,28 @@
+.container{
+    display:grid;
+    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-columns:1fr 8fr 2fr;
+}
+.navigation-bar{
+    grid-row: 1;
+    grid-column:2;
+    width: 100%;
+    height: 6em;
+    background-color: rgb(199, 136, 20);
+    display:flex;
+    padding:0.5em;
+}
+
+.logo{
+    align-self:center;
+}
+
+.links ul{
+    display:flex;
+    
+    list-style-type:none;
+}
+
+.settings > ul{
+    list-style-type:none;
+}
